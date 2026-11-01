@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 空 data URI，纯粹为了让浏览器别去请求 favicon.ico -->
+    <link rel="icon" href="data:," />
+    <title>福州五一广场 · 三维园区 | Cesium + 3D Tiles</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #f7f9fc;
+        font-family: -apple-system, "Microsoft YaHei", sans-serif;
+      }
+      #cesiumContainer {
+        position: absolute;
+        inset: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 场景容器：面板 / 设备卡片 / 性能条都由 src/modules 里的 JS 自己建 -->
+    <div id="cesiumContainer"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "fuzhou-3d-city",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "福州五一广场三维园区演示：Cesium + 3D Tiles，20 栋建筑、10 台设备、地形贴合、性能面板",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cesium": "^1.146.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
